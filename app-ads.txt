@@ -1,0 +1,3 @@
+# app-ads.txt for UDMSEARCH
+# Contact: clq.chen1221@gmail.com
+# Replace the following lines with the EXACT entries provided by AdMob / LevelPlay / other networks.
