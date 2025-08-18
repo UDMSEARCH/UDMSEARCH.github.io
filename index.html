@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lemon X — Indie Game Developer</title>
+  <meta name="description" content="Lemon X（UDMSEARCH）独立游戏开发者主页，展示游戏、隐私政策与联系信息。" />
+  <meta property="og:title" content="Lemon X — Indie Game Developer" />
+  <meta property="og:description" content="Screw Jammed 等移动游戏的开发者主页。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://UDMSEARCH.github.io/" />
+  <meta name="theme-color" content="#ffa92c" />
+  <style>
+    :root{
+      --bg:#0b0f14;
+      --panel:#121821;
+      --text:#e8eef6;
+      --muted:#9bb0c3;
+      --brand:#ffa92c;
+      --brand-2:#ffce40;
+      --card:#0f141b;
+      --border:rgba(255,255,255,0.08);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(1200px 600px at -10% -10%, #1b2430 0%, transparent 60%),
+        radial-gradient(900px 500px at 110% 10%, #1a2736 0%, transparent 55%),
+        var(--bg);
+      color:var(--text);
+      line-height:1.65;
+    }
+    a{color:var(--brand); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:1100px; margin:0 auto; padding:28px 20px 60px}
+    header{
+      display:flex; align-items:center; justify-content:space-between;
+      gap:16px; padding:14px 0 22px; border-bottom:1px solid var(--border);
+    }
+    .brand{
+      display:flex; align-items:center; gap:12px;
+      font-weight:800; letter-spacing:.4px; font-size:22px;
+    }
+    .logo{
+      width:40px; height:40px; border-radius:12px;
+      background: conic-gradient(from 210deg, var(--brand), var(--brand-2) 40%, #ffd770 70%, var(--brand));
+      box-shadow:0 4px 24px rgba(255,169,44,.25);
+    }
+    nav{display:flex; gap:18px; flex-wrap:wrap}
+    nav a{color:var(--muted)}
+    nav a:hover{color:var(--text)}
+    .hero{
+      display:grid; grid-template-columns:1.2fr .8fr; gap:26px; align-items:center;
+      padding:36px 0 12px;
+    }
+    .hero h1{
+      margin:0 0 12px; font-size:40px; line-height:1.15;
+      background:linear-gradient(90deg,#fff, #cfe3ff 60%); -webkit-background-clip:text; color:transparent;
+    }
+    .hero p{color:var(--muted); margin:0 0 18px; font-size:17px}
+    .cta{display:flex; gap:12px; flex-wrap:wrap}
+    .btn{
+      display:inline-flex; align-items:center; gap:8px; padding:12px 16px; border-radius:12px;
+      background:linear-gradient(90deg, var(--brand), var(--brand-2)); color:#1a1a1a; font-weight:700; border:none;
+      box-shadow:0 10px 30px rgba(255,169,44,.25);
+    }
+    .btn:hover{filter:brightness(.98); text-decoration:none}
+    .btn.secondary{
+      background:transparent; color:var(--text); border:1px solid var(--border)
+    }
+    .panel{
+      background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01));
+      border:1px solid var(--border); border-radius:18px; padding:18px;
+    }
+    .grid{display:grid; gap:16px}
+    .grid.cards{grid-template-columns:repeat(3,1fr)}
+    .card{
+      background:var(--card); border:1px solid var(--border); border-radius:16px; padding:16px;
+      display:flex; flex-direction:column; gap:10px; min-height:160px
+    }
+    .card h3{margin:6px 0 2px; font-size:18px}
+    .meta{color:var(--muted); font-size:13px}
+    .tag{display:inline-block; padding:2px 8px; border:1px solid var(--border); border-radius:999px; font-size:12px; color:var(--muted)}
+    .list{margin:0; padding-left:18px}
+    footer{
+      margin-top:42px; padding-top:18px; border-top:1px solid var(--border); color:var(--muted); font-size:13px
+    }
+    @media (max-width: 880px){
+      .hero{grid-template-columns:1fr}
+      .grid.cards{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>Lemon X</div>
+      </div>
+      <nav>
+        <a href="#games">Games</a>
+        <a href="#about">About</a>
+        <a href="#policies">Policies</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div>
+        <h1>Indie Game Studio — Lemon X</h1>
+        <p>我们专注于轻量、有手感的移动游戏。代表作 <strong>Screw Jammed</strong>（物理+解谜），围绕色彩、层级与道具展开；通过数据驱动的难度曲线和 A/B 实验，持续迭代玩家体验。</p>
+        <div class="cta">
+          <a class="btn" href="#games" aria-label="查看游戏列表">🚀 查看游戏</a>
+          <a class="btn secondary" href="#policies" aria-label="查看政策与合规">📜 政策与合规</a>
+        </div>
+      </div>
+      <div class="panel">
+        <div style="font-weight:700; margin-bottom:6px;">快速链接</div>
+        <div class="grid">
+          <a class="tag" href="/app-ads.txt">app-ads.txt</a>
+          <a class="tag" href="https://UDMSEARCH.github.io/screw-jammed-policy/" target="_blank" rel="noopener">隐私政策（Screw Jammed）</a>
+          <!-- 如上线商店，可替换下方占位链接 -->
+          <!-- <a class="tag" href="YOUR_GOOGLE_PLAY_URL" target="_blank" rel="noopener">Google Play</a> -->
+          <!-- <a class="tag" href="YOUR_APP_STORE_URL" target="_blank" rel="noopener">App Store</a> -->
+        </div>
+      </div>
+    </section>
+
+    <section id="games" class="grid cards">
+      <article class="card">
+        <div class="tag">Puzzle · Physics</div>
+        <h3>Screw Jammed</h3>
+        <p class="meta">色板 × 螺丝 × 物理互动。核心玩法围绕“颜色匹配”和“临时存放”，通过遮挡、诱饵与路径数量控制难度。</p>
+        <div class="cta">
+          <a class="btn secondary" href="https://UDMSEARCH.github.io/screw-jammed-policy/" target="_blank" rel="noopener">隐私政策</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="tag">LiveOps</div>
+        <h3>Roadmap</h3>
+        <p class="meta">A/B 测试（关卡刷新节奏、广告触发点）、Remote Config 个性化、事件漏斗与停留点分析。</p>
+      </article>
+      <article class="card">
+        <div class="tag">Tech</div>
+        <h3>Stack</h3>
+        <p class="meta">Unity · LevelPlay (ironSource) · Unity Ads · Google AdMob · Firebase（Analytics/Remote Config/Crashlytics）。</p>
+      </article>
+    </section>
+
+    <section id="about" style="margin-top:26px">
+      <div class="panel">
+        <h2 style="margin:6px 0 8px">关于 Lemon X</h2>
+        <p>独立游戏开发与运营团队，聚焦中轻度玩法的长期留存与可玩性：以手感和反馈为优先，配合自动化关卡生成与数据化调优，确保“上手简单，长期耐玩”。</p>
+        <ul class="list">
+          <li>难度模型：遮挡系数 / 解法路径数 / 诱饵比例 / 依赖深度</li>
+          <li>运营能力：Remote Config+实验、低打断广告策略、冷启动素材与漏斗跟踪</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="policies" style="margin-top:18px">
+      <div class="panel">
+        <h2 style="margin:6px 0 8px">Policies & Compliance</h2>
+        <ul class="list">
+          <li><a href="/app-ads.txt">/app-ads.txt</a>（开发者域名根路径）</li>
+          <li><a href="https://UDMSEARCH.github.io/screw-jammed-policy/" target="_blank" rel="noopener">Screw Jammed 隐私政策</a></li>
+        </ul>
+        <p class="meta">提示：如你新增其他游戏，请为每个游戏提供独立的隐私政策页面，并从此处链接。</p>
+      </div>
+    </section>
+
+    <section id="contact" style="margin-top:18px">
+      <div class="panel">
+        <h2 style="margin:6px 0 8px">Contact</h2>
+        <p>商务/合作/合规沟通请发送邮件至：<a href="mailto:clq.chen1221@gmail.com">clq.chen1221@gmail.com</a></p>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="y"></span> Lemon X · UDMSEARCH · All rights reserved.
+    </footer>
+  </div>
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
