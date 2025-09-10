@@ -306,6 +306,7 @@ copper6.com, 766114, RESELLER
 iion.io, 10162, RESELLER
 verve.com, 15503, RESELLER, 0c8f5958fc2d627
 yeahmobi.com, 5135195, RESELLER
+google.com, pub-8116197950229304, DIRECT, f08c47fec0942fa0
 bidmachine.io, 113, RESELLER
 webeyemob.com, 80029, RESELLER
 castify.ai, 1295184, RESELLER
