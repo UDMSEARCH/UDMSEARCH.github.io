@@ -2,15 +2,9 @@
 # Contact: clq.chen1221@gmail.com
 # Last-Updated: 2025-08-19
 
-# === Primary sellers (add your own lines from each network dashboard) ===
-# AdMob (replace with your own pub- ID from AdMob App-ads.txt page)
-google.com, pub-<YOUR_ADMOB_PUBLISHER_ID>, DIRECT, f08c47fec0942fa0
-# Unity Ads (your publisher ID from Unity dashboard)
+google.com, pub-8116197950229304, DIRECT, f08c47fec0942fa0
 unity.com, 6728063, DIRECT, 96cabb5fbdde37a7
-# (Optional) ironSource LevelPlay, if they provide a direct line for your account:
-# ironsrc.com, <YOUR_IRONSOURCE_SELLER_ID>, DIRECT
 
-# === Authorized resellers (from Unity/mediation list you provided) ===
 aceex.io, 1926, RESELLER, b1cf3c874d5c6682
 kidoz.net, 14260, RESELLER, a109366414b7335e
 bidease.com, bidease_seller_20, RESELLER
@@ -245,7 +239,6 @@ lijit.com, 491737, RESELLER, fafdf38b16bf6b2b
 lijit.com, 503707, RESELLER, fafdf38b16bf6b2b
 pokkt.com, 6246, RESELLER, c45702d9311e25fd
 connectad.io, 453, RESELLER, 85ac85a30c93b3e5
-google.com, pub-8116197950229304, DIRECT, f08c47fec0942fa0
 orangeclickmedia.com, c-1181, RESELLER
 blueseasx.com, 203613, RESELLER, 7998eac5087f6110
 blueseasx.com, 232670, RESELLER, 7998eac5087f6110
@@ -309,5 +302,4 @@ bidmachine.io, 113, RESELLER
 webeyemob.com, 80029, RESELLER
 castify.ai, 1295184, RESELLER
 ignitemediatech.com, pub_11115, RESELLER
-google.com, pub-8116197950229304, DIRECT, f08c47fec0942fa0
 google.com, pub-8116197950229304, DIRECT, f08c47fec0942fa0
