@@ -245,9 +245,7 @@ lijit.com, 491737, RESELLER, fafdf38b16bf6b2b
 lijit.com, 503707, RESELLER, fafdf38b16bf6b2b
 pokkt.com, 6246, RESELLER, c45702d9311e25fd
 connectad.io, 453, RESELLER, 85ac85a30c93b3e5
-google.com, pub-3990748024667386, RESELLER, f08c47fec0942fa0
-google.com, pub-5060663379040713, RESELLER, f08c47fec0942fa0
-google.com, pub-1682595508078257, RESELLER, f08c47fec0942fa0
+google.com, pub-8116197950229304, DIRECT, f08c47fec0942fa0
 orangeclickmedia.com, c-1181, RESELLER
 blueseasx.com, 203613, RESELLER, 7998eac5087f6110
 blueseasx.com, 232670, RESELLER, 7998eac5087f6110
