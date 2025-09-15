@@ -302,3 +302,6 @@ bidmachine.io, 113, RESELLER
 webeyemob.com, 80029, RESELLER
 castify.ai, 1295184, RESELLER
 ignitemediatech.com, pub_11115, RESELLER
+google.com, pub-3990748024667386, RESELLER, f08c47fec0942fa0
+google.com, pub-5060663379040713, RESELLER, f08c47fec0942fa0
+google.com, pub-1682595508078257, RESELLER, f08c47fec0942fa0
